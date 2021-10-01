@@ -1,0 +1,21 @@
+{
+  "name": "simplilearn-final-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd server && npm install && node index.js",
+    "client": "cd client && npm install && npm start",
+    "start": "npm install && concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.2.1"
+  },
+  "description": ""
+}
